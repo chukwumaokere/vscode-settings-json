@@ -242,5 +242,6 @@
                 "Ubuntu"
             ]
         }
-    }
+    },
+    "window.menuBarVisibility": "toggle"
 }
