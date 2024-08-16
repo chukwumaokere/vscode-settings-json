@@ -2,43 +2,42 @@
     "editor.copyWithSyntaxHighlighting": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "window.newWindowDimensions": "inherit",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "none",
     "editor.detectIndentation": false,
     "window.nativeFullScreen": true,
-    "files.insertFinalNewline": true,
+    "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
     "workbench.editor.showTabs": "none",
-    "editor.minimap.enabled": false,
     "editor.lineNumbers": "off",
     "editor.guides.indentation": false,
 
     // Silence the Noise
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "scm.diffDecorations": "none",
-    "editor.hover.delay": 1500,
+    "editor.hover.delay": 500,
     "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
+    "editor.matchBrackets": "always",
     "workbench.tips.enabled": false,
-    "editor.colorDecorators": false,
-    "git.decorations.enabled": false,
+    "editor.colorDecorators": true,
+    "git.decorations.enabled": true,
     "workbench.startupEditor": "none",
     "editor.lightbulb.enabled": "off",
-    "editor.selectionHighlight": false,
+    "editor.selectionHighlight": true,
     "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlight": "gutter",
     "editor.occurrencesHighlight": "off",
-    "problems.decorations.enabled": false,
+    "problems.decorations.enabled": true,
     "editor.renderControlCharacters": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.gotoLocation.multipleReferences": "goto",
     "editor.gotoLocation.multipleDefinitions": "goto",
     "editor.gotoLocation.multipleDeclarations": "goto",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
@@ -46,8 +45,8 @@
     "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
     "editor.suggestFontSize": 12,
     "editor.suggestLineHeight": 16,
-    "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontSize": 15,
 
     "search.useIgnoreFiles": false,
     "search.exclude": {
@@ -158,8 +157,6 @@
     },
     "tailwindCSS.experimental.configFile": null,
     "editor.fontWeight": "400",
-    "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
     "editor.inlineSuggest.suppressSuggestions": true,
     "codesnap.backgroundColor": "#FFC540",
     "codesnap.showLineNumbers": false,
@@ -199,6 +196,9 @@
     "workbench.tree.enableStickyScroll": false,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "window.titleBarStyle": "custom",
+    "remote.SSH.remotePlatform": {
+        "192.168.86.24": "linux"
+    },
     "workbench.colorCustomizations": {
         "terminal.background": "#00000000"
     },
@@ -213,7 +213,10 @@
         // "file:///Users/your-user-name/custom-vscode-script.js"
 
         // For Windows
-        // "file:///C:/Users/you/AppData/Roaming/Code/User/custom-vscode.css",
-        // "file:///C:/Users/you/AppData/Roaming/Code/User/custom-vscode.js"
-    ]
+        "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.css",
+        "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.js"
+    ],
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false
 }
