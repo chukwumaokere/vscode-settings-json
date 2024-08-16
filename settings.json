@@ -4,7 +4,7 @@
     "editor.emptySelectionClipboard": false,
     "workbench.editor.enablePreview": true,
     "window.newWindowDimensions": "inherit",
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
     "editor.snippetSuggestions": "none",
