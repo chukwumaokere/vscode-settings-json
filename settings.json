@@ -1,4 +1,85 @@
+// Reference: https://www.youtube.com/watch?v=9_I0bySQoCs
+// Repo: https://github.com/chukwumaokere/vscode-settings-json
 {
+    "workbench.colorTheme": "Moonlight II Italic",
+    "editor.suggestSelection": "first",
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 14,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "synthwave84.brightness": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "redhat.telemetry.enabled": false,
+    "eslint.format.enable": true,
+    "files.eol": "\n",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/Chuck/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13 genericstylesheet.css",
+         // Absolute file paths for your css/js files
+        // For Mac or Linux
+        "file:///Users/chukwumaokere/Projects/chukwumaokere/vscode-settings-json/custom-vscode.css",
+        "file:///Users/chukwumaokere/Projects/chukwumaokere/vscode-settings-json/vscode-script.js",
+
+        // For Windows
+        // "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.css",
+        // "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.js"
+    ],
+    "window.zoomLevel": -1,
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.configFile": "C:\\Users\\Chuck\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "10.0.0.59": "macOS"
+    },
+    //"workbench.iconTheme": "vscode-icons",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "testing.openTesting": "neverOpen",
+    "jest.runMode": "watch",
+    "jest.autoRun": "off",
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "cva\\(([^)]*)\\)",
+            "[\"'`]([^\"'`]*).*?[\"'`]"
+        ]
+    ],
+    "typescript.preferences.quoteStyle": "single",
+    "editor.foldingStrategy": "auto",
+    "editor.snippetSuggestions": "none",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": true
+    },
+    "workbench.sideBar.location": "right",
+    "editor.semanticHighlighting.enabled": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.tsserver.log": "off",
+    "terminal.integrated.env.linux": {},
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.env.osx": {},
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    "markdown-preview-enhanced.liveUpdate": true,
+    "vue.server.hybridMode": false,
+    "git.autofetch": true,
+
     "editor.copyWithSyntaxHighlighting": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
@@ -7,13 +88,12 @@
     "editor.multiCursorModifier": "alt",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "none",
     "editor.detectIndentation": false,
     "window.nativeFullScreen": true,
     "files.insertFinalNewline": false,
     "files.trimFinalNewlines": true,
-    "workbench.editor.showTabs": "none",
-    "editor.lineNumbers": "off",
+    "workbench.editor.showTabs": "multiple",
+    "editor.lineNumbers": "on",
     "editor.guides.indentation": false,
 
     // Silence the Noise
@@ -42,7 +122,7 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
     // Typography
-    "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+    //"editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
     "editor.suggestFontSize": 12,
     "editor.suggestLineHeight": 16,
     "terminal.integrated.lineHeight": 1,
@@ -108,23 +188,10 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    "prettier.requireConfig": true,
-    "prettier.useEditorConfig": false,
-    "explorer.sortOrder": "type",
-    "prettier.tabWidth": 4,
-    "vetur.format.options.tabSize": 4,
-    "workbench.tree.indent": 15,
-    "[html]": {
-        "editor.defaultFormatter": "apility.beautify-blade",
-        "editor.formatOnSave": true
-    },
-    "editor.wordWrapColumn": 120,
-    "files.autoSave": "off",
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-
     "editor.quickSuggestions": {
         "strings": true
     },
@@ -132,8 +199,16 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "explorer.sortOrder": "type",
+    "prettier.tabWidth": 4,
+    "vetur.format.options.tabSize": 4,
+    // "editor.wordWrapColumn": "off"
+    "files.autoSave": "off",
+
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
     "editor.formatOnSave": false,
@@ -141,16 +216,15 @@
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 14,
     "editor.minimap.maxColumn": 250,
     "codesnap.containerPadding": "8em",
     "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
     "explorer.confirmDelete": false,
     "editor.accessibilitySupport": "off",
     "chat.editor.wordWrap": "on",
-    "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrap": "wordWrapColumn",
     "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        //"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
@@ -163,42 +237,34 @@
     "codesnap.roundedCorners": true,
     "editor.padding.top": 16,
     "editor.cursorBlinking": "solid",
-    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.enabled": true,
     "editor.lineHeight": 20,
-    "window.zoomLevel": -1,
-
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-              "scope": [
-                "comment",
-                "keyword",
-                "variable.language",
-                "entity.other.attribute-name.html",
-                "entity.other.attribute-name",
-                "keyword.control",
-                "storage.type",
-                "comment",
-                "comment.block",
-                "comment.line"
-              ],
-              "settings": {
-                "fontStyle": ""
-              }
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
             }
-          ]
+        ]
     },
     "material-icon-theme.saturation": 0,
-    "workbench.colorTheme": "Moonlight II",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
-    "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "window.titleBarStyle": "custom",
-    "remote.SSH.remotePlatform": {
-        "192.168.86.24": "linux"
-    },
     "workbench.colorCustomizations": {
         "terminal.background": "#00000000"
     },
@@ -206,45 +272,9 @@
         "workbench.colorCustomizations"
     ],
     "C_Cpp.intelliSenseEngine": "disabled",
-    "vscode_custom_css.imports": [
-        // Absolute file paths for your css/js files
-        // For Mac or Linux
-        // "file:///Users/your-user-name/custom-vscode.css"
-        // "file:///Users/your-user-name/custom-vscode-script.js"
-
-        // For Windows
-        "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.css",
-        "file:///C:/Users/Pinot/AppData/Roaming/Code/User/custom-vscode.js"
-    ],
     "workbench.activityBar.location": "hidden",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "Git Bash": {
-            "source": "Git Bash"
-        },
-        "Ubuntu (WSL)": {
-            "path": "C:\\WINDOWS\\System32\\wsl.exe",
-            "args": [
-                "-d",
-                "Ubuntu"
-            ]
-        }
-    },
     "window.menuBarVisibility": "toggle",
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-    }
+    "workbench.iconTheme": "eq-material-theme-icons-light",
 }
