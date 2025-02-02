@@ -28,13 +28,6 @@
     box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
 }
 
-/* Command Palette Label */
-.monaco-workbench label {
-    color: #fff !important;
-    opacity: 1 !important;
-    font-size: 14px !important;
-}
-
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
     background-color: #4f5971 !important;
@@ -52,6 +45,13 @@
 /* File explorer action buttons */
 .monaco-workbench .part.sidebar .title-actions .actions-container {
     display: none;
+}
+
+/* Command Palette Label */
+.monaco-workbench label {
+    color: #fff !important;
+    opacity: 1 !important;
+    font-size: 14px !important;
 }
 
 /* File Explorer Item Label */
@@ -96,6 +96,7 @@
     position: absolute !important;
     right: 1px !important;
     width: 5px !important;
+    opacity: .4 !important;
     background: #bc9abc !important;
     left: auto !important;
 }
@@ -159,7 +160,8 @@
     top: 50% !important;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
     padding: 10px 10px 18px 10px !important;
-    background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+    background-image: linear-gradient(#2a2b38 0%, #1e2030 100%) !important;
+    /* background-color: #1e2030 !important; */
     backdrop-filter: blur(3px) !important;
     border-radius: 12px !important;
 }
