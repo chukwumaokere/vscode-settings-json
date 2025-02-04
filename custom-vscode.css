@@ -55,13 +55,22 @@
 }
 
 /* File Explorer Item Label */
-.monaco-tree .monaco-tree-row .label-name,
+/*.monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row
 .monaco-icon-label .label-name {
     font-family: 'Geist Mono', monospace !important;
     font-size: 14px !important;
     font-weight: 400 !important;
     color: rgb(130, 139, 184) !important;
+}
+*/
+
+/* File Explorer Item Label - removed static coloring */
+.monaco-list .monaco-list-row
+.monaco-icon-label {
+    font-family: 'Geist Mono', monospace !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
 }
 
 /* Sidebar top shadow */
