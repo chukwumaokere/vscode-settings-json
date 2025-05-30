@@ -4,6 +4,10 @@
     color: #008c7d !important; */
 }
 
+div.cppPreviewBoxDomNode {
+    min-height: 180px !important;
+}
+
 .line-numbers {
     position: relative !important;
     width: 35px !important;
@@ -34,6 +38,10 @@
     opacity: 1 !important;
     border-top: 1px #727b90 solid;
     border-bottom: 1px #727b90 solid;
+}
+
+.monaco-list-row:has(.monaco-list-row.selected) {
+    background: red !important;
 }
 
 /* List item label name */
