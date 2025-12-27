@@ -61,13 +61,13 @@
     "workbench.sideBar.location": "right",
     "editor.semanticHighlighting.enabled": true,
     "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[python]": {
         "editor.formatOnType": true
     },
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.fontFamily": "Noto Mono for Powerline",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
     "typescript.tsserver.log": "off",
     "terminal.integrated.env.linux": {},
@@ -277,4 +277,12 @@
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "toggle",
     "workbench.iconTheme": "eq-material-theme-icons-light",
+    "testing.automaticallyOpenTestResults": "neverOpen",
+    "prettify-ts.enabled": false,
+    "terminal.external.osxExec": "Ghostty.app",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontLigatures.featureSettings": "\"calt\" on, \"liga\" on",
 }
